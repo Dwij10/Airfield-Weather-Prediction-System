@@ -1,0 +1,37 @@
+# Core Data Processing
+numpy
+pandas
+scikit-learn
+xarray
+opencv-python
+netCDF4
+h5netcdf
+joblib
+
+# Deep Learning
+tensorflow
+keras
+
+# Weather Data Processing
+metpy
+
+# Data Collection
+boto3
+requests
+pytz
+
+# Dashboard/Visualization
+dash
+plotly
+
+# Scheduling
+apscheduler
+
+# Utilities
+schedule
+
+# Development
+testresources
+pytest
+setuptools
+wheel

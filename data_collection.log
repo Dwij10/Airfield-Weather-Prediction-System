@@ -1,0 +1,524 @@
+2025-09-14 01:57:54,506 - INFO - Scheduler set up to run every 1 hours
+2025-09-14 01:57:54,506 - INFO - Starting scheduled data download
+2025-09-14 01:58:41,533 - INFO - Successfully completed data download
+2025-09-14 03:14:23,163 - INFO - Starting data collection service...
+2025-09-14 03:14:23,165 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:14:23,165 - INFO - Started data collection with 10 minute interval
+2025-09-14 03:14:23,169 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 2, 10, 44, 545911), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 03:24:23,166 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:34:23,169 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:44:23,170 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:44:36,715 - INFO - Received stop signal. Shutting down...
+2025-09-14 03:45:15,671 - INFO - Starting data collection service...
+2025-09-14 03:45:15,672 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:45:15,673 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:45:15,674 - INFO - Started data collection with 10 minute interval
+2025-09-14 03:45:15,677 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 2, 10, 44, 545911), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 03:50:28,542 - INFO - Starting data collection service...
+2025-09-14 03:50:28,545 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:50:28,545 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:50:28,546 - INFO - Started data collection with 10 minute interval
+2025-09-14 03:50:28,549 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 2, 10, 44, 545911), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 03:52:49,032 - INFO - Received stop signal. Shutting down...
+2025-09-14 03:55:16,007 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 03:57:36,524 - INFO - Starting data collection service...
+2025-09-14 03:57:36,567 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 03:57:36,568 - INFO - Successfully collected METAR data
+2025-09-14 03:57:36,854 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 03:57:36,857 - ERROR - No recent radar data available
+2025-09-14 03:57:36,857 - ERROR - Failed to fetch radar data
+2025-09-14 03:57:36,858 - WARNING - Failed to collect radar data
+2025-09-14 03:57:36,858 - WARNING - Satellite directory does not exist: data\raw\satellite\2025\09\14
+2025-09-14 03:57:36,859 - WARNING - Failed to collect satellite data
+2025-09-14 03:57:36,863 - INFO - Started data collection with 10 minute interval
+2025-09-14 03:57:36,878 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 03:57:36,881 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 2, 10, 44, 545911), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 03:57:36,883 - INFO - Successfully collected METAR data
+2025-09-14 03:57:37,129 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 03:57:37,131 - ERROR - No recent radar data available
+2025-09-14 03:57:37,131 - ERROR - Failed to fetch radar data
+2025-09-14 03:57:37,132 - WARNING - Failed to collect radar data
+2025-09-14 03:57:37,132 - WARNING - Satellite directory does not exist: data\raw\satellite\2025\09\14
+2025-09-14 03:57:37,133 - WARNING - Failed to collect satellite data
+2025-09-14 03:59:16,853 - INFO - Received stop signal. Shutting down...
+2025-09-14 03:59:17,184 - INFO - Stopped data collection
+2025-09-14 03:59:40,349 - INFO - Starting data collection service...
+2025-09-14 03:59:40,356 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 03:59:40,356 - INFO - Successfully collected METAR data
+2025-09-14 03:59:43,339 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 03:59:43,344 - INFO - Generating sample radar data for testing
+2025-09-14 03:59:43,989 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0359.nc
+2025-09-14 03:59:43,996 - INFO - Successfully ingested radar data
+2025-09-14 03:59:43,998 - INFO - Successfully collected radar data
+2025-09-14 03:59:43,999 - WARNING - Satellite directory does not exist: data\raw\satellite\2025\09\14
+2025-09-14 03:59:43,999 - WARNING - Failed to collect satellite data
+2025-09-14 03:59:44,001 - INFO - Started data collection with 10 minute interval
+2025-09-14 03:59:44,007 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 03:59:44,009 - INFO - Successfully collected METAR data
+2025-09-14 03:59:44,013 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 3, 59, 43, 989235), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 03:59:44,269 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 03:59:44,273 - INFO - Generating sample radar data for testing
+2025-09-14 03:59:44,304 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0359.nc
+2025-09-14 03:59:44,308 - INFO - Successfully ingested radar data
+2025-09-14 03:59:44,308 - INFO - Successfully collected radar data
+2025-09-14 03:59:44,309 - WARNING - Satellite directory does not exist: data\raw\satellite\2025\09\14
+2025-09-14 03:59:44,309 - WARNING - Failed to collect satellite data
+2025-09-14 04:00:58,392 - INFO - Received stop signal. Shutting down...
+2025-09-14 04:01:18,791 - INFO - Starting data collection service...
+2025-09-14 04:01:18,802 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:01:18,803 - INFO - Successfully collected METAR data
+2025-09-14 04:01:19,060 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:01:19,062 - INFO - Generating sample radar data for testing
+2025-09-14 04:01:19,109 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0401.nc
+2025-09-14 04:01:19,114 - INFO - Successfully ingested radar data
+2025-09-14 04:01:19,115 - INFO - Successfully collected radar data
+2025-09-14 04:01:19,116 - WARNING - Satellite directory does not exist: data\raw\satellite\2025\09\14
+2025-09-14 04:01:19,116 - WARNING - Failed to collect satellite data
+2025-09-14 04:01:19,118 - INFO - Started data collection with 10 minute interval
+2025-09-14 04:01:19,128 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:01:19,129 - INFO - Successfully collected METAR data
+2025-09-14 04:01:19,135 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 4, 1, 19, 109926), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 04:01:19,374 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:01:19,377 - INFO - Generating sample radar data for testing
+2025-09-14 04:01:19,407 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0401.nc
+2025-09-14 04:01:19,412 - INFO - Successfully ingested radar data
+2025-09-14 04:01:19,412 - INFO - Successfully collected radar data
+2025-09-14 04:01:19,413 - WARNING - Satellite directory does not exist: data\raw\satellite\2025\09\14
+2025-09-14 04:01:19,413 - WARNING - Failed to collect satellite data
+2025-09-14 04:04:41,549 - INFO - Received stop signal. Shutting down...
+2025-09-14 04:04:41,559 - INFO - Stopped data collection
+2025-09-14 04:05:16,340 - ERROR - Error collecting data: 'DataIngestion' object has no attribute 'ingest_metar_data'
+2025-09-14 04:05:20,232 - INFO - Starting data collection service...
+2025-09-14 04:05:20,241 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:05:20,241 - INFO - Successfully collected METAR data
+2025-09-14 04:05:21,006 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:05:21,009 - INFO - Generating sample radar data for testing
+2025-09-14 04:05:21,058 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0405.nc
+2025-09-14 04:05:21,063 - INFO - Successfully ingested radar data
+2025-09-14 04:05:21,063 - INFO - Successfully collected radar data
+2025-09-14 04:05:21,067 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:05:21,068 - INFO - Generating sample satellite data
+2025-09-14 04:05:21,093 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_0405.nc
+2025-09-14 04:05:22,635 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_0405.nc
+2025-09-14 04:05:22,636 - INFO - Successfully collected satellite data
+2025-09-14 04:05:22,638 - INFO - Started data collection with 10 minute interval
+2025-09-14 04:05:22,645 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:05:22,646 - INFO - Successfully collected METAR data
+2025-09-14 04:05:22,655 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 4, 5, 21, 93494), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 04:05:22,973 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:05:22,976 - INFO - Generating sample radar data for testing
+2025-09-14 04:05:23,005 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0405.nc
+2025-09-14 04:05:23,011 - INFO - Successfully ingested radar data
+2025-09-14 04:05:23,012 - INFO - Successfully collected radar data
+2025-09-14 04:05:23,013 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:05:23,014 - INFO - Generating sample satellite data
+2025-09-14 04:05:23,028 - ERROR - Error ingesting satellite data: [Errno 13] Permission denied: 'C:\\Users\\Deel\\Desktop\\airfield-weather-predictor\\data\\raw\\satellite\\2025\\09\\14\\satellite_20250914_0405.nc'
+2025-09-14 04:05:23,029 - WARNING - Failed to collect satellite data
+2025-09-14 04:07:00,558 - INFO - Received stop signal. Shutting down...
+2025-09-14 04:07:01,076 - INFO - Stopped data collection
+2025-09-14 04:07:19,265 - INFO - Starting data collection service...
+2025-09-14 04:07:19,273 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:07:19,273 - INFO - Successfully collected METAR data
+2025-09-14 04:07:19,534 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:07:19,537 - INFO - Generating sample radar data for testing
+2025-09-14 04:07:19,583 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0407.nc
+2025-09-14 04:07:19,590 - INFO - Successfully ingested radar data
+2025-09-14 04:07:19,590 - INFO - Successfully collected radar data
+2025-09-14 04:07:19,591 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:07:19,592 - INFO - Generating sample satellite data
+2025-09-14 04:07:19,613 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_040719_592.nc
+2025-09-14 04:07:20,105 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_040719_592.nc
+2025-09-14 04:07:20,106 - INFO - Successfully collected satellite data
+2025-09-14 04:07:20,108 - INFO - Started data collection with 10 minute interval
+2025-09-14 04:07:20,115 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:07:20,116 - INFO - Successfully collected METAR data
+2025-09-14 04:07:20,125 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 4, 7, 19, 612176), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 04:07:20,358 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:07:20,361 - INFO - Generating sample radar data for testing
+2025-09-14 04:07:20,391 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0407.nc
+2025-09-14 04:07:20,396 - INFO - Successfully ingested radar data
+2025-09-14 04:07:20,397 - INFO - Successfully collected radar data
+2025-09-14 04:07:20,398 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:07:20,399 - INFO - Generating sample satellite data
+2025-09-14 04:07:20,422 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_040720_399.nc
+2025-09-14 04:07:20,451 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_040720_399.nc
+2025-09-14 04:07:20,452 - INFO - Successfully collected satellite data
+2025-09-14 04:07:55,273 - INFO - Received stop signal. Shutting down...
+2025-09-14 04:07:55,418 - INFO - Stopped data collection
+2025-09-14 04:10:20,228 - INFO - Received stop signal. Shutting down...
+2025-09-14 04:10:20,534 - INFO - Stopped data collection
+2025-09-14 04:10:58,453 - INFO - Starting data collection service...
+2025-09-14 04:10:58,460 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:10:58,461 - INFO - Successfully collected METAR data
+2025-09-14 04:10:58,752 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:10:58,755 - INFO - Generating sample radar data for testing
+2025-09-14 04:10:59,348 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0410.nc
+2025-09-14 04:10:59,356 - INFO - Successfully ingested radar data
+2025-09-14 04:10:59,357 - INFO - Successfully collected radar data
+2025-09-14 04:10:59,358 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:10:59,360 - INFO - Generating sample satellite data
+2025-09-14 04:10:59,383 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_041059_360.nc
+2025-09-14 04:10:59,928 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_041059_360.nc
+2025-09-14 04:10:59,928 - INFO - Successfully collected satellite data
+2025-09-14 04:10:59,930 - INFO - Started data collection with 10 minute interval
+2025-09-14 04:10:59,938 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:10:59,938 - INFO - Successfully collected METAR data
+2025-09-14 04:10:59,944 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 4, 10, 59, 382075), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 04:11:00,177 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:11:00,179 - INFO - Generating sample radar data for testing
+2025-09-14 04:11:00,196 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0411.nc
+2025-09-14 04:11:00,203 - INFO - Successfully ingested radar data
+2025-09-14 04:11:00,203 - INFO - Successfully collected radar data
+2025-09-14 04:11:00,204 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:11:00,205 - INFO - Generating sample satellite data
+2025-09-14 04:11:00,229 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_041100_204.nc
+2025-09-14 04:11:00,273 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_041100_204.nc
+2025-09-14 04:11:00,274 - INFO - Successfully collected satellite data
+2025-09-14 04:21:00,418 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:21:00,419 - INFO - Successfully collected METAR data
+2025-09-14 04:21:00,683 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:21:00,686 - INFO - Generating sample radar data for testing
+2025-09-14 04:21:00,704 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0421.nc
+2025-09-14 04:21:00,710 - INFO - Successfully ingested radar data
+2025-09-14 04:21:00,710 - INFO - Successfully collected radar data
+2025-09-14 04:21:00,711 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:21:00,712 - INFO - Generating sample satellite data
+2025-09-14 04:21:00,732 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_042100_712.nc
+2025-09-14 04:21:00,770 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_042100_712.nc
+2025-09-14 04:21:00,771 - INFO - Successfully collected satellite data
+2025-09-14 04:23:09,805 - INFO - Received stop signal. Shutting down...
+2025-09-14 04:23:09,838 - INFO - Stopped data collection
+2025-09-14 04:26:20,627 - INFO - Starting data collection service...
+2025-09-14 04:26:20,632 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 04:26:20,643 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:26:20,643 - INFO - Successfully collected METAR data
+2025-09-14 04:26:20,925 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:26:20,929 - INFO - Generating sample radar data for testing
+2025-09-14 04:26:20,976 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0426.nc
+2025-09-14 04:26:20,981 - INFO - Successfully ingested radar data
+2025-09-14 04:26:20,981 - INFO - Successfully collected radar data
+2025-09-14 04:26:20,982 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:26:20,983 - INFO - Generating sample satellite data
+2025-09-14 04:26:21,007 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_042620_983.nc
+2025-09-14 04:26:21,531 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_042620_983.nc
+2025-09-14 04:26:21,532 - INFO - Successfully collected satellite data
+2025-09-14 04:26:21,535 - INFO - Started data collection with 10 minute interval
+2025-09-14 04:26:21,541 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 04:26:21,549 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:26:21,550 - INFO - Successfully collected METAR data
+2025-09-14 04:26:21,561 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 4, 26, 21, 7960), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 04:26:21,795 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:26:21,798 - INFO - Generating sample radar data for testing
+2025-09-14 04:26:21,832 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0426.nc
+2025-09-14 04:26:21,837 - INFO - Successfully ingested radar data
+2025-09-14 04:26:21,838 - INFO - Successfully collected radar data
+2025-09-14 04:26:21,839 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:26:21,840 - INFO - Generating sample satellite data
+2025-09-14 04:26:21,862 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_042621_840.nc
+2025-09-14 04:26:21,898 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_042621_840.nc
+2025-09-14 04:26:21,899 - INFO - Successfully collected satellite data
+2025-09-14 04:36:21,920 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 04:36:21,926 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:36:21,927 - INFO - Successfully collected METAR data
+2025-09-14 04:36:22,207 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:36:22,209 - INFO - Generating sample radar data for testing
+2025-09-14 04:36:22,225 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0436.nc
+2025-09-14 04:36:22,230 - INFO - Successfully ingested radar data
+2025-09-14 04:36:22,230 - INFO - Successfully collected radar data
+2025-09-14 04:36:22,230 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:36:22,231 - INFO - Generating sample satellite data
+2025-09-14 04:36:22,255 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_043622_231.nc
+2025-09-14 04:36:22,286 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_043622_231.nc
+2025-09-14 04:36:22,287 - INFO - Successfully collected satellite data
+2025-09-14 04:46:22,260 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 04:46:22,265 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 04:46:22,265 - INFO - Successfully collected METAR data
+2025-09-14 04:46:22,518 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 04:46:22,520 - INFO - Generating sample radar data for testing
+2025-09-14 04:46:22,533 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0446.nc
+2025-09-14 04:46:22,539 - INFO - Successfully ingested radar data
+2025-09-14 04:46:22,540 - INFO - Successfully collected radar data
+2025-09-14 04:46:22,541 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 04:46:22,542 - INFO - Generating sample satellite data
+2025-09-14 04:46:22,564 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_044622_542.nc
+2025-09-14 04:46:22,592 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_044622_542.nc
+2025-09-14 04:46:22,593 - INFO - Successfully collected satellite data
+2025-09-14 05:15:33,736 - INFO - Starting data collection service...
+2025-09-14 05:15:33,754 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 05:15:33,787 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 05:15:33,789 - INFO - Successfully collected METAR data
+2025-09-14 05:15:36,093 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 05:15:36,096 - INFO - Generating sample radar data for testing
+2025-09-14 05:15:36,673 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0515.nc
+2025-09-14 05:15:36,683 - INFO - Successfully ingested radar data
+2025-09-14 05:15:36,684 - INFO - Successfully collected radar data
+2025-09-14 05:15:36,685 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 05:15:36,686 - INFO - Generating sample satellite data
+2025-09-14 05:15:36,725 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_051536_686.nc
+2025-09-14 05:15:38,685 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_051536_686.nc
+2025-09-14 05:15:38,686 - INFO - Successfully collected satellite data
+2025-09-14 05:15:38,687 - INFO - Started data collection with 10 minute interval
+2025-09-14 05:15:38,696 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 05:15:38,711 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 05:15:38,712 - INFO - Successfully collected METAR data
+2025-09-14 05:15:38,726 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 5, 15, 36, 723902), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 05:15:40,901 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 05:15:40,904 - INFO - Generating sample radar data for testing
+2025-09-14 05:15:40,951 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0515.nc
+2025-09-14 05:15:40,958 - INFO - Successfully ingested radar data
+2025-09-14 05:15:40,959 - INFO - Successfully collected radar data
+2025-09-14 05:15:40,960 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 05:15:40,960 - INFO - Generating sample satellite data
+2025-09-14 05:15:40,998 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_051540_960.nc
+2025-09-14 05:15:41,041 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_051540_960.nc
+2025-09-14 05:15:41,041 - INFO - Successfully collected satellite data
+2025-09-14 05:25:38,966 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 05:25:38,978 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 05:25:38,979 - INFO - Successfully collected METAR data
+2025-09-14 05:25:41,261 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 05:25:41,264 - INFO - Generating sample radar data for testing
+2025-09-14 05:25:41,300 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0525.nc
+2025-09-14 05:25:41,307 - INFO - Successfully ingested radar data
+2025-09-14 05:25:41,307 - INFO - Successfully collected radar data
+2025-09-14 05:25:41,308 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 05:25:41,309 - INFO - Generating sample satellite data
+2025-09-14 05:25:41,345 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_052541_309.nc
+2025-09-14 05:25:41,386 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_052541_309.nc
+2025-09-14 05:25:41,387 - INFO - Successfully collected satellite data
+2025-09-14 05:35:39,227 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 05:35:39,237 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 05:35:39,237 - INFO - Successfully collected METAR data
+2025-09-14 05:35:41,123 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 05:35:41,126 - INFO - Generating sample radar data for testing
+2025-09-14 05:35:41,160 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0535.nc
+2025-09-14 05:35:41,167 - INFO - Successfully ingested radar data
+2025-09-14 05:35:41,168 - INFO - Successfully collected radar data
+2025-09-14 05:35:41,169 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 05:35:41,169 - INFO - Generating sample satellite data
+2025-09-14 05:35:41,202 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_053541_169.nc
+2025-09-14 05:35:41,242 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_053541_169.nc
+2025-09-14 05:35:41,242 - INFO - Successfully collected satellite data
+2025-09-14 07:04:30,713 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 07:04:30,728 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 07:04:30,728 - INFO - Successfully collected METAR data
+2025-09-14 07:04:32,683 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 07:04:32,686 - INFO - Generating sample radar data for testing
+2025-09-14 07:04:32,735 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0704.nc
+2025-09-14 07:04:32,744 - INFO - Successfully ingested radar data
+2025-09-14 07:04:32,745 - INFO - Successfully collected radar data
+2025-09-14 07:04:32,746 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 07:04:32,747 - INFO - Generating sample satellite data
+2025-09-14 07:04:32,780 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_070432_747.nc
+2025-09-14 07:04:32,818 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_070432_747.nc
+2025-09-14 07:04:32,819 - INFO - Successfully collected satellite data
+2025-09-14 07:19:04,383 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 07:19:04,390 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 07:19:04,391 - INFO - Successfully collected METAR data
+2025-09-14 07:19:06,195 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 07:19:06,198 - INFO - Generating sample radar data for testing
+2025-09-14 07:19:06,226 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0719.nc
+2025-09-14 07:19:06,233 - INFO - Successfully ingested radar data
+2025-09-14 07:19:06,233 - INFO - Successfully collected radar data
+2025-09-14 07:19:06,234 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 07:19:06,235 - INFO - Generating sample satellite data
+2025-09-14 07:19:06,265 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_071906_235.nc
+2025-09-14 07:19:06,307 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_071906_235.nc
+2025-09-14 07:19:06,308 - INFO - Successfully collected satellite data
+2025-09-14 07:29:04,659 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 07:29:04,667 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 07:29:04,668 - INFO - Successfully collected METAR data
+2025-09-14 07:29:06,389 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 07:29:06,393 - INFO - Generating sample radar data for testing
+2025-09-14 07:29:06,420 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0729.nc
+2025-09-14 07:29:06,428 - INFO - Successfully ingested radar data
+2025-09-14 07:29:06,428 - INFO - Successfully collected radar data
+2025-09-14 07:29:06,429 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 07:29:06,431 - INFO - Generating sample satellite data
+2025-09-14 07:29:06,532 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_072906_430.nc
+2025-09-14 07:29:06,620 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_072906_430.nc
+2025-09-14 07:29:06,621 - INFO - Successfully collected satellite data
+2025-09-14 07:29:57,859 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 7, 29, 16, 316748), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 07:39:04,989 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 07:39:04,997 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 07:39:04,998 - INFO - Successfully collected METAR data
+2025-09-14 07:39:06,721 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 07:39:06,725 - INFO - Generating sample radar data for testing
+2025-09-14 07:39:06,741 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0739.nc
+2025-09-14 07:39:06,751 - INFO - Successfully ingested radar data
+2025-09-14 07:39:06,751 - INFO - Successfully collected radar data
+2025-09-14 07:39:06,752 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 07:39:06,753 - INFO - Generating sample satellite data
+2025-09-14 07:39:06,785 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_073906_753.nc
+2025-09-14 07:39:06,825 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_073906_753.nc
+2025-09-14 07:39:06,827 - INFO - Successfully collected satellite data
+2025-09-14 07:49:05,284 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 07:49:05,293 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 07:49:05,293 - INFO - Successfully collected METAR data
+2025-09-14 07:49:09,524 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 07:49:09,527 - INFO - Generating sample radar data for testing
+2025-09-14 07:49:09,549 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0749.nc
+2025-09-14 07:49:09,556 - INFO - Successfully ingested radar data
+2025-09-14 07:49:09,557 - INFO - Successfully collected radar data
+2025-09-14 07:49:09,558 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 07:49:09,559 - INFO - Generating sample satellite data
+2025-09-14 07:49:09,590 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_074909_559.nc
+2025-09-14 07:49:09,640 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_074909_559.nc
+2025-09-14 07:49:09,641 - INFO - Successfully collected satellite data
+2025-09-14 07:59:05,553 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 07:59:05,562 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 07:59:05,562 - INFO - Successfully collected METAR data
+2025-09-14 07:59:15,244 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 07:59:15,247 - INFO - Generating sample radar data for testing
+2025-09-14 07:59:15,281 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0759.nc
+2025-09-14 07:59:15,288 - INFO - Successfully ingested radar data
+2025-09-14 07:59:15,289 - INFO - Successfully collected radar data
+2025-09-14 07:59:15,290 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 07:59:15,291 - INFO - Generating sample satellite data
+2025-09-14 07:59:15,332 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_075915_291.nc
+2025-09-14 07:59:15,386 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_075915_291.nc
+2025-09-14 07:59:15,388 - INFO - Successfully collected satellite data
+2025-09-14 08:33:59,817 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 08:33:59,825 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 08:33:59,826 - INFO - Successfully collected METAR data
+2025-09-14 08:34:01,725 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 08:34:01,728 - INFO - Generating sample radar data for testing
+2025-09-14 08:34:01,749 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0834.nc
+2025-09-14 08:34:01,754 - INFO - Successfully ingested radar data
+2025-09-14 08:34:01,755 - INFO - Successfully collected radar data
+2025-09-14 08:34:01,757 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 08:34:01,758 - INFO - Generating sample satellite data
+2025-09-14 08:34:01,788 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_083401_758.nc
+2025-09-14 08:34:01,832 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_083401_758.nc
+2025-09-14 08:34:01,833 - INFO - Successfully collected satellite data
+2025-09-14 08:45:20,979 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 08:45:20,987 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 08:45:20,988 - INFO - Successfully collected METAR data
+2025-09-14 08:45:23,826 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 08:45:23,830 - INFO - Generating sample radar data for testing
+2025-09-14 08:45:23,848 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0845.nc
+2025-09-14 08:45:23,855 - INFO - Successfully ingested radar data
+2025-09-14 08:45:23,856 - INFO - Successfully collected radar data
+2025-09-14 08:45:23,857 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 08:45:23,857 - INFO - Generating sample satellite data
+2025-09-14 08:45:23,892 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_084523_857.nc
+2025-09-14 08:45:23,934 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_084523_857.nc
+2025-09-14 08:45:23,935 - INFO - Successfully collected satellite data
+2025-09-14 08:55:19,295 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 8, 54, 56, 5146), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 08:55:21,187 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 08:55:21,196 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 08:55:21,196 - INFO - Successfully collected METAR data
+2025-09-14 08:55:23,469 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 08:55:23,472 - INFO - Generating sample radar data for testing
+2025-09-14 08:55:23,496 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0855.nc
+2025-09-14 08:55:23,501 - INFO - Successfully ingested radar data
+2025-09-14 08:55:23,501 - INFO - Successfully collected radar data
+2025-09-14 08:55:23,502 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 08:55:23,503 - INFO - Generating sample satellite data
+2025-09-14 08:55:23,531 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_085523_503.nc
+2025-09-14 08:55:23,567 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_085523_503.nc
+2025-09-14 08:55:23,568 - INFO - Successfully collected satellite data
+2025-09-14 09:05:21,403 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 09:05:21,411 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 09:05:21,411 - INFO - Successfully collected METAR data
+2025-09-14 09:05:23,876 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 09:05:23,879 - INFO - Generating sample radar data for testing
+2025-09-14 09:05:23,901 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0905.nc
+2025-09-14 09:05:23,905 - INFO - Successfully ingested radar data
+2025-09-14 09:05:23,906 - INFO - Successfully collected radar data
+2025-09-14 09:05:23,907 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 09:05:23,907 - INFO - Generating sample satellite data
+2025-09-14 09:05:23,933 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_090523_907.nc
+2025-09-14 09:05:23,967 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_090523_907.nc
+2025-09-14 09:05:23,968 - INFO - Successfully collected satellite data
+2025-09-14 09:15:21,638 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 09:15:21,647 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 09:15:21,647 - INFO - Successfully collected METAR data
+2025-09-14 09:15:23,634 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 09:15:23,636 - INFO - Generating sample radar data for testing
+2025-09-14 09:15:23,660 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0915.nc
+2025-09-14 09:15:23,666 - INFO - Successfully ingested radar data
+2025-09-14 09:15:23,666 - INFO - Successfully collected radar data
+2025-09-14 09:15:23,667 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 09:15:23,668 - INFO - Generating sample satellite data
+2025-09-14 09:15:23,696 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_091523_668.nc
+2025-09-14 09:15:23,740 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_091523_668.nc
+2025-09-14 09:15:23,741 - INFO - Successfully collected satellite data
+2025-09-14 09:25:26,014 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 09:25:26,055 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 09:25:26,069 - INFO - Successfully collected METAR data
+2025-09-14 09:25:28,482 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 09:25:28,485 - INFO - Generating sample radar data for testing
+2025-09-14 09:25:28,504 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0925.nc
+2025-09-14 09:25:28,509 - INFO - Successfully ingested radar data
+2025-09-14 09:25:28,509 - INFO - Successfully collected radar data
+2025-09-14 09:25:28,510 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 09:25:28,511 - INFO - Generating sample satellite data
+2025-09-14 09:25:28,543 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_092528_511.nc
+2025-09-14 09:25:28,581 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_092528_511.nc
+2025-09-14 09:25:28,582 - INFO - Successfully collected satellite data
+2025-09-14 09:56:15,705 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 09:56:15,729 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 09:56:15,734 - INFO - Successfully collected METAR data
+2025-09-14 09:56:24,976 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 09:56:24,979 - INFO - Generating sample radar data for testing
+2025-09-14 09:56:25,014 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_0956.nc
+2025-09-14 09:56:25,021 - INFO - Successfully ingested radar data
+2025-09-14 09:56:25,021 - INFO - Successfully collected radar data
+2025-09-14 09:56:25,023 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 09:56:25,023 - INFO - Generating sample satellite data
+2025-09-14 09:56:25,063 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_095625_023.nc
+2025-09-14 09:56:25,118 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_095625_023.nc
+2025-09-14 09:56:25,119 - INFO - Successfully collected satellite data
+2025-09-14 10:08:42,840 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 10:08:42,850 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 10:08:42,850 - INFO - Successfully collected METAR data
+2025-09-14 10:08:46,744 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 10:08:46,747 - INFO - Generating sample radar data for testing
+2025-09-14 10:08:46,780 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_1008.nc
+2025-09-14 10:08:46,788 - INFO - Successfully ingested radar data
+2025-09-14 10:08:46,788 - INFO - Successfully collected radar data
+2025-09-14 10:08:46,789 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 10:08:46,790 - INFO - Generating sample satellite data
+2025-09-14 10:08:46,826 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_100846_790.nc
+2025-09-14 10:08:46,858 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_100846_790.nc
+2025-09-14 10:08:46,859 - INFO - Successfully collected satellite data
+2025-09-14 10:10:26,602 - INFO - Data collection status: {'last_collection': datetime.datetime(2025, 9, 14, 10, 9, 51, 726526), 'available_data': {'metar': True, 'radar': True, 'satellite': True}}
+2025-09-14 10:18:43,068 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 10:18:43,074 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 10:18:43,075 - INFO - Successfully collected METAR data
+2025-09-14 10:19:04,125 - ERROR - Error fetching radar data: HTTPSConnectionPool(host='mausam.imd.gov.in', port=443): Max retries exceeded with url: /radar/dwr/VAAH/MAX_20250914_1010.nc (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001DDFF0DD590>, 'Connection to mausam.imd.gov.in timed out. (connect timeout=30)'))
+2025-09-14 10:19:04,126 - INFO - Generating sample radar data for testing
+2025-09-14 10:19:04,140 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_1019.nc
+2025-09-14 10:19:04,144 - INFO - Successfully ingested radar data
+2025-09-14 10:19:04,144 - INFO - Successfully collected radar data
+2025-09-14 10:19:04,145 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 10:19:04,146 - INFO - Generating sample satellite data
+2025-09-14 10:19:04,171 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_101904_146.nc
+2025-09-14 10:19:04,205 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_101904_146.nc
+2025-09-14 10:19:04,206 - INFO - Successfully collected satellite data
+2025-09-14 10:28:43,304 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 10:28:43,311 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 10:28:43,311 - INFO - Successfully collected METAR data
+2025-09-14 10:28:53,607 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 10:28:53,610 - INFO - Generating sample radar data for testing
+2025-09-14 10:28:53,641 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_1028.nc
+2025-09-14 10:28:53,648 - INFO - Successfully ingested radar data
+2025-09-14 10:28:53,649 - INFO - Successfully collected radar data
+2025-09-14 10:28:53,650 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 10:28:53,650 - INFO - Generating sample satellite data
+2025-09-14 10:28:53,684 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_102853_650.nc
+2025-09-14 10:28:53,721 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_102853_650.nc
+2025-09-14 10:28:53,722 - INFO - Successfully collected satellite data
+2025-09-14 10:38:43,507 - INFO - METAR columns available: ['station', 'valid', 'lon', 'lat', 'tmpf', 'dwpf', 'relh', 'drct', 'sknt', 'p01i', 'alti', 'mslp', 'vsby', 'gust', 'skyc1', 'skyc2', 'skyc3', 'skyc4', 'skyl1', 'skyl2', 'skyl3', 'skyl4', 'wxcodes', 'ice_accretion_1hr', 'ice_accretion_3hr', 'ice_accretion_6hr', 'peak_wind_gust', 'peak_wind_drct', 'peak_wind_time', 'feel', 'metar', 'snowdepth']
+2025-09-14 10:38:43,515 - INFO - Successfully ingested METAR data from data\raw\metar\2025\09\VAAH_2025-09-13_2025-09-14.csv
+2025-09-14 10:38:43,516 - INFO - Successfully collected METAR data
+2025-09-14 10:38:53,077 - ERROR - Failed to fetch radar data. Status code: 404
+2025-09-14 10:38:53,080 - INFO - Generating sample radar data for testing
+2025-09-14 10:38:53,109 - INFO - Generated sample radar data: data\raw\radar\2025\09\14\radar_20250914_1038.nc
+2025-09-14 10:38:53,114 - INFO - Successfully ingested radar data
+2025-09-14 10:38:53,115 - INFO - Successfully collected radar data
+2025-09-14 10:38:53,115 - INFO - Ensuring satellite directory exists: data\raw\satellite\2025\09\14
+2025-09-14 10:38:53,116 - INFO - Generating sample satellite data
+2025-09-14 10:38:53,141 - INFO - Generated sample satellite data: data\raw\satellite\2025\09\14\satellite_20250914_103853_116.nc
+2025-09-14 10:38:53,180 - INFO - Successfully ingested satellite data from data\raw\satellite\2025\09\14\satellite_20250914_103853_116.nc
+2025-09-14 10:38:53,180 - INFO - Successfully collected satellite data
